@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>French poem</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>AI French Poem Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
         <h1>AI French Poem Generator</h1>
       </header>
-  
+
       <main>
         <form>
           <input
@@ -19,33 +20,34 @@
             autofocus
             required
             autocomplete="off"
+            class="instructions"
           />
-          <input type="submit" />
+          <input type="submit" class="submit-button" />
         </form>
-        <div>
+        <div class="poem">
           La tombe dit à la rose
           <br />
           Des pleurs dont l'aube t'arrose
         </div>
       </main>
-  
 
-    <footer>
-      This AI project was coded by
-      <a href="#" target="_blank">Youstina Ibrahim</a> and
-      is
-      <a
-        href="#"
-        target="_blank"
-      >
-        open-sourced on GitHub</a
-      >
-      and is
-      <a href="#" target="_blank"
-        >hosted on Netlify</a
-      >.
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="#" target="_blank">Youstina Ibrahim</a>
+        and is
+        <a
+          href="#"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+        <a href="#" target="_blank"
+          >hosted on Netlify</a
+        >.
+      </footer>
+    </div>
 
-</body>
-<script src="index.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
